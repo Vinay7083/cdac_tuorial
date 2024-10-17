@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Pawar | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #333;
+            border-left: 5px solid #ff8a00;
+            padding-left: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        a {
+            color: #e52e71;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .skills, .hobbies, .projects {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .skills div, .hobbies div, .projects div {
+            flex: 1;
+            background-color: #ff8a00;
+            color: #fff;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            .skills div, .hobbies div, .projects div {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinay Pawar</h1>
+        <img src="C:\Users\vinay\OneDrive\Desktop\vinay.jpg" alt="Vinay Pawar">
+        <p>Big Data Analytics | Web Developer | AI Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am Vinay Pawar, a motivated professional seeking to grow and develop my skills in web development, big data analytics, and artificial intelligence. I am highly passionate about learning new technologies and making an impact in the tech industry.</p>
+        </div>
+
+        <div class="card">
+            <h2>Education</h2>
+            <p><strong>PG Diploma in Big Data Analytics</strong> - CDAC Kharghar (2024-2025)</p>
+            <p><strong>Bachelor of Engineering, Computer</strong> - Chhatrapati Shivaji Maharaj Institute of Technology (2021-2024), CGPA: 7.18</p>
+            <p><strong>Diploma in Computer Engineering</strong> - Karmaveer Bhaurao Patil Polytechnic (2019-2021), Percentage: 80.17%</p>
+            <p><strong>SSC</strong> - New English School, Satara (2012-2017), Percentage: 75.60%</p>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div>
+                    <h3>Ecommerce Website with AI Chatbot</h3>
+                    <p>Built an ecommerce platform integrated with AI chatbot for customer interaction. Technologies used: HTML/CSS, JavaScript, ReactJS, MongoDB.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <div><strong>HTML</strong></div>
+                <div><strong>CSS</strong></div>
+                <div><strong>JavaScript</strong></div>
+                <div><strong>Python</strong></div>
+                <div><strong>MySQL</strong></div>
+                <div><strong>MongoDB</strong></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Hobbies</h2>
+            <div class="hobbies">
+                <div><strong>Traveling</strong></div>
+                <div><strong>Listening to Music</strong></div>
+                <div><strong>Riding Bikes</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact: <a href="mailto:vinupawar6699@gmail.com">vinupawar6699@gmail.com</a> | <a href="https://www.linkedin.com/in/vinay-pawar-659bb9289" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
